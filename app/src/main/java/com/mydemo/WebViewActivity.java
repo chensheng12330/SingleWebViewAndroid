@@ -70,7 +70,7 @@ public class WebViewActivity extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mUrl = "http://www.pz5918.com/wap";
+        mUrl = "http://www.24kbook.com/wap";
 
         mWv = (MyScrollWebView) findViewById(R.id.wv);
         mRefreshLayout = (PtrClassicFrameLayout) findViewById(R.id.refresh_layout);
